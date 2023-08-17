@@ -28,6 +28,6 @@ CREATE TABLE [dbo].[Employee](
 GO
 
 4. Go to DemoDB2Context file and change the connection string with the following changes -
-     a. Server = <yourservername>
-     b. Initial Catalog = <yourdbname>
+     a. Server = your_server_name
+     b. Initial Catalog = your_db_name
 5. Now run the solution
