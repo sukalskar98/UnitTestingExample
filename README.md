@@ -9,7 +9,7 @@ This is a demo application that contains Unit Test case examples for
 3. Create a database
 4. Create a table called **Employee** using the below query
 
-/****** Object:  Table [dbo].[Employee]    Script Date: 8/17/2023 2:58:38 PM ******/
+```/****** Object:  Table [dbo].[Employee]    Script Date: 8/17/2023 2:58:38 PM ******/
 SET ANSI_NULLS ON
 GO
 
@@ -25,7 +25,7 @@ CREATE TABLE [dbo].[Employee](
 	[ID] ASC
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY]
-GO
+GO```
 
 4. Go to DemoDB2Context file and change the connection string with the following changes -
      a. Server = your_server_name
