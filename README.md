@@ -25,9 +25,12 @@ CREATE TABLE [dbo].[Employee](
 	[ID] ASC
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY]
-GO```
-
+GO
+```
 4. Go to DemoDB2Context file and change the connection string with the following changes -
-     a. Server = your_server_name
-     b. Initial Catalog = your_db_name
+```
+"Server=<ServerName>;Initial Catalog=<DBName>;Integrated Security=SSPI;TrustServerCertificate=False;Encrypt=False;"
+
+Note - Add your server name and db name in the connection string
+```
 5. Now run the solution
